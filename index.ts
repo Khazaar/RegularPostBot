@@ -1,10 +1,11 @@
-import cron from "node-cron";
 import schedule from "node-schedule";
+import * as dotenv from "dotenv";
+dotenv.config();
 
 import { MessagesDict, MessageTypes, IntervalsDict } from "./messages";
+const EcstaticVoiceOfTheTribe_botAPIKEY = process.env
+    .ECSTATICVOICEOFTHETRIBE_BOTAPIKEY as string;
 const makeRequest = (mesageType: MessageTypes) => async () => {
-    const EcstaticVoiceOfTheTribe_botAPIKEY =
-        "5817256008:AAGDs6M3kpi4EOrHsqOQjMr1MBKRv60sO0k";
     const body = {
         chat_id: 293790727,
         text: MessagesDict[mesageType],
