@@ -10,6 +10,11 @@
       "StackName": "amplify-regularpostbot-dev-172058",
       "StackId": "arn:aws:cloudformation:us-east-1:660831125782:stack/amplify-regularpostbot-dev-172058/ad79b080-bcfb-11ed-ae94-0ee6ca1f0f6b",
       "AmplifyAppId": "dl1vjnhbx6krf"
+    },
+    "categories": {
+      "function": {
+        "makeRequestFunc": {}
+      }
     }
   }
 }
