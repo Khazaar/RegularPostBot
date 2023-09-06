@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "npx ts-node index.ts"
+        "dev": "npx ts-node index.ts",
+        "amplify:makeRequestFunc": "cd amplify/backend/function/makeRequestFunc/src && npm install && tsc ./*.ts"
     },
     "keywords": [],
     "author": "",

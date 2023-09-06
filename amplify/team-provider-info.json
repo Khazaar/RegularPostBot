@@ -13,7 +13,10 @@
     },
     "categories": {
       "function": {
-        "makeRequestFunc": {}
+        "makeRequestFunc": {
+          "deploymentBucketName": "amplify-regularpostbot-dev-172058-deployment",
+          "s3Key": "amplify-builds/makeRequestFunc-6b56475750375a385948-build.zip"
+        }
       }
     }
   }
